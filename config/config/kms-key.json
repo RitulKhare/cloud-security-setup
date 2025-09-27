@@ -1,4 +1,6 @@
 {
-  "KeyId": "",
-  "Description": "KMS key for data encryption"
+  "KeyId": "alias/my-secure-key",
+  "Description": "KMS key for S3 encryption",
+  "KeyUsage": "ENCRYPT_DECRYPT",
+  "CustomerMasterKeySpec": "SYMMETRIC_DEFAULT"
 }
